@@ -1,0 +1,18 @@
+.post-list-item {
+  cursor: pointer;
+}
+
+.post-detail__container  {
+  border-radius: 0.25rem;
+  boder: 1px solid rgba(0, 0, 0, 0.125);
+  height: 80%;
+  left: 40%;
+  padding: 20px;
+  position: fixed;
+  width: 50%;
+}
+
+.post-detail__title {
+  margin-bottom: 50px;
+  text-align: center;
+}

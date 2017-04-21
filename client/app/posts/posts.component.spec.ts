@@ -1,9 +1,9 @@
-/* tslint:disable:no-unused-variable */
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { By } from '@angular/platform-browser';
-import { DebugElement } from '@angular/core';
 
 import { PostsComponent } from './posts.component';
+import { PostsService } from './posts.service';
+import { CommonModule } from '@angular/common';
+import { HttpModule } from '@angular/http';
 
 describe('PostsComponent', () => {
   let component: PostsComponent;
@@ -11,7 +11,12 @@ describe('PostsComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PostsComponent ]
+      declarations: [ PostsComponent ],
+      providers: [ PostsService ],
+      imports: [
+        CommonModule,
+        HttpModule
+      ],
     })
     .compileComponents();
   }));
@@ -22,7 +27,7 @@ describe('PostsComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should have a defined component', () => {
     expect(component).toBeTruthy();
   });
 });

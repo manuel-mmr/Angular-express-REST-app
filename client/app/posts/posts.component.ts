@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { PostsService } from '../posts.service';
+import { PostsService } from './posts.service';
+import { Post } from './post';
 
 @Component({
   selector: 'app-posts',
@@ -8,15 +9,21 @@ import { PostsService } from '../posts.service';
 })
 export class PostsComponent implements OnInit {
 
-  // instantiate posts to an empty array
-  posts: any = [];
+  posts: Array<Post[]> = [];
+  selectedPost: Post[];
 
   constructor(private postsService: PostsService) { }
 
   ngOnInit() {
-    // Retrieve posts from the API
     this.postsService.getAllPosts().subscribe(posts => {
       this.posts = posts;
     });
   }
+
+  selectElement(element) {
+    this.postsService.getPostDetail(element.id).subscribe(post => {
+      this.selectedPost = post;
+    });
+  }
+
 }
