@@ -8,7 +8,6 @@ const API = 'https://jsonplaceholder.typicode.com';
  * Get all posts
  */
 router.get('/posts', (req, res) => {
-    // Get posts from the mock api
     axios.get(`${API}/posts`)
       .then(posts => {
         res.status(200).json(posts.data);
