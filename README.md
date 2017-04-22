@@ -8,10 +8,10 @@
 REST application which includes the Client and Server side with Angular2
 and Express - Node.js
 
-The*Client*side implements the Master Detail Pattern displaying a list of objects retrieve from the Server side, and 
+The *Client* side implements the Master Detail Pattern displaying a list of objects retrieve from the Server side, and 
 if an object is selected from the list, the application will retrieve and show the object details.
 
-The*Server*side implements an API with the followings entry points:
+The *Server* side implements an API with the followings entry points:
 
 * `/api/posts`: retrieve the list of objects.
 * `/api/posts/:id`: retrieve the object details depending on te id.
@@ -24,7 +24,7 @@ Run ` npm install ` to install the dependencies.
 
 Run `ng run build` or `npm run build` to build the project. Navigate to `http://localhost:3000/`
 
-Note: We need to have installed*angular-cli*to run the `ng run build` command, to install it 
+Note: We need to have installed *angular-cli* to run the `ng run build` command, to install it 
 run `npm install -g angular-cli`.
 
 ### Running unit tests
