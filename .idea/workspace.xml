@@ -2,45 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3e0cba4-88f4-474a-b46b-a0bbded5b2fa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/app/app.module.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/posts/post.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/posts/posts.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/posts/posts.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/posts/posts.module.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/posts/posts.service.ts" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-app/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-app/client/app/app.module.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-app/client/app/posts.service.spec.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-app/client/app/posts.service.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-app/client/app/posts/posts.component.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-app/client/app/posts/posts.component.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test-app/.editorconfig" afterPath="$PROJECT_DIR$/.editorconfig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test-app/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test-app/angular-cli.json" afterPath="$PROJECT_DIR$/angular-cli.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test-app/client/app/app.component.css" afterPath="$PROJECT_DIR$/client/app/app/app.component.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test-app/client/app/app.component.html" afterPath="$PROJECT_DIR$/client/app/app/app.component.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test-app/client/app/app.component.spec.ts" afterPath="$PROJECT_DIR$/client/app/app/app.component.spec.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test-app/client/app/app.component.ts" afterPath="$PROJECT_DIR$/client/app/app/app.component.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test-app/client/app/posts/posts.component.spec.ts" afterPath="$PROJECT_DIR$/client/app/posts/posts.component.spec.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test-app/client/app/posts/posts.component.ts" afterPath="$PROJECT_DIR$/client/app/posts/posts.component.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test-app/client/index.html" afterPath="$PROJECT_DIR$/client/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test-app/client/main.ts" afterPath="$PROJECT_DIR$/client/main.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test-app/client/polyfills.ts" afterPath="$PROJECT_DIR$/client/polyfills.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test-app/client/styles.css" afterPath="$PROJECT_DIR$/client/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test-app/client/test.ts" afterPath="$PROJECT_DIR$/client/test.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test-app/client/tsconfig.json" afterPath="$PROJECT_DIR$/client/tsconfig.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test-app/e2e/app.e2e-spec.ts" afterPath="$PROJECT_DIR$/e2e/app.e2e-spec.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test-app/e2e/app.po.ts" afterPath="$PROJECT_DIR$/e2e/app.po.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test-app/e2e/tsconfig.json" afterPath="$PROJECT_DIR$/e2e/tsconfig.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test-app/karma.conf.js" afterPath="$PROJECT_DIR$/karma.conf.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test-app/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test-app/protractor.conf.js" afterPath="$PROJECT_DIR$/protractor.conf.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test-app/server.js" afterPath="$PROJECT_DIR$/server/server.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test-app/server/routes/api.js" afterPath="$PROJECT_DIR$/server/routes/api.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test-app/tslint.json" afterPath="$PROJECT_DIR$/tslint.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Angular-express-REST-app.iml" afterPath="$PROJECT_DIR$/.idea/Angular-express-REST-app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e2e/app.e2e-spec.ts" afterPath="$PROJECT_DIR$/e2e/app.e2e-spec.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protractor.conf.js" afterPath="$PROJECT_DIR$/protractor.conf.js" />
     </list>
     <ignored path="Angular-express-REST-app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,26 +38,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/routes/api.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/app/app/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="1" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/app/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
@@ -108,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="419">
+              <first_editor relative-caret-position="404">
                 <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
                 <folding />
               </first_editor>
@@ -128,7 +72,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name="protractor.conf.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protractor.conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.e2e-spec.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/e2e/app.e2e-spec.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
@@ -141,7 +107,7 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="-8">
               <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding />
             </state>
@@ -231,8 +197,10 @@
         <option value="$PROJECT_DIR$/client/app/posts/posts.component.spec.ts" />
         <option value="$PROJECT_DIR$/angular-cli.json" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/protractor.conf.js" />
+        <option value="$PROJECT_DIR$/e2e/app.e2e-spec.ts" />
       </list>
     </option>
   </component>
@@ -289,6 +257,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Angular-express-REST-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Angular-express-REST-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Angular-express-REST-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e2e" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -389,12 +371,12 @@
       <workItem from="1492534870410" duration="4826000" />
       <workItem from="1492634051294" duration="4111000" />
       <workItem from="1492706025157" duration="6764000" />
-      <workItem from="1492767107802" duration="20144000" />
+      <workItem from="1492767107802" duration="20697000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36518000" />
+    <option name="totallyTimeSpent" value="37071000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -449,14 +431,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.editorconfig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -479,13 +453,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/e2e/app.po.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e2e/app.e2e-spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -856,8 +823,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="-8">
           <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -865,7 +840,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="419">
+          <first_editor relative-caret-position="404">
             <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
             <folding />
           </first_editor>
@@ -884,10 +859,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/protractor.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        <state relative-caret-position="225">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e2e/app.e2e-spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding />
         </state>
       </provider>

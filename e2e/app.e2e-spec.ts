@@ -7,8 +7,13 @@ describe('test-app App', function() {
     page = new TestAppPage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display message saying Test APP', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('Test APP');
+  });
+
+  it('should display message saying Test APP', () => {
+    page.navigateTo();
+    expect(page.getParagraphText()).toEqual('Test APP');
   });
 });
